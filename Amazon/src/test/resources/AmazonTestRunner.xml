@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="TestSuit">
+
+    <parameter name="useCloudEnv" value="false"></parameter>
+    <parameter name="cloudEnvName" value="browserStack"></parameter>
+    <parameter name="OS" value="windows"></parameter>
+    <parameter name="os_version" value="10"></parameter>
+    <parameter name="browserName" value="chrome"></parameter>
+    <parameter name="browserVersion" value="88"></parameter>
+    <parameter name="url" value="https://www.amazon.com/"></parameter>
+
+
+<test name="Amazon Automation">
+
+    <classes>
+        <class name="homepagetest.HomePageTest"></class>
+    </classes>
+</test>
+
+
+
+
+
+
+</suite>
+
+
+
+
+
